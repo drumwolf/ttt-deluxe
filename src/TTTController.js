@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TTTMenu from './TTTMenu';
+import TTTGrid from './TTTGrid';
 import TTTLabels from './TTTLabels';
 
 class TTTController extends Component {
