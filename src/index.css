@@ -16,159 +16,159 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*** custom generic styles */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-	font-family: "Roboto", Arial, Sans-serif;
+  font-family: "Roboto", Arial, Sans-serif;
 }
 menu {
-	padding: 0;
+  padding: 0;
 }
 main,
 footer {
-	text-align: center;
+  text-align: center;
 }
 footer {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 footer a {
-	color: #333;
+  color: #333;
 }
 
 /*** TTT menu styles ***/
 
 #TTTMenu {
-	margin: 20px auto;
+  margin: 20px auto;
 }
 #TTTMenu menu-item {
-	border-radius: 5px;
-	color: #FFF;
-	display: inline-block;
-	font-size: 14px;
-	height: 30px;
-	line-height: 30px;
-	margin: 0 2px;
-	width: 180px;
+  border-radius: 5px;
+  color: #FFF;
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 2px;
+  width: 180px;
 }
 #TTTMenu .resize {
-	background-color: #00F;
+  background-color: #00F;
 }
 #TTTMenu .restart {
-	background-color: #006400;
+  background-color: #006400;
 }
 #TTTMenu a {
-	color: inherit;
-	display: block;
-	text-decoration: none;
+  color: inherit;
+  display: block;
+  text-decoration: none;
 }
 #TTTMenu select {
-	border: 0;
-	border-radius: 2px;
-	margin-right: 5px;
-	outline: none;
-	padding: 0 2px;
+  border: 0;
+  border-radius: 2px;
+  margin-right: 5px;
+  outline: none;
+  padding: 0 2px;
 }
 
 /*** TTT game grid ***/
 
 #TTT .frozen {
-	pointer-events: none;
+  pointer-events: none;
 }
 #TTTGrid {
-	border-radius: 3px;
-	box-shadow: 0px 1px 5px 0px #333;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
-	width: 300px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 0px #333;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
 }
 #TTTGrid li {
-	border: solid 1px #999;
-	cursor: pointer;
-	display: block;
-	float: left;
-	font-family: Verdana;
-	font-size: 10px;
-	font-weight: bold;
-	transition: font-size 0.25s;
+  border: solid 1px #999;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight: bold;
+  transition: font-size 0.25s;
 }
 #TTTGrid li.frozen {
-	font-size: 50px;
+  font-size: 50px;
 }
 #TTTGrid li.highlight {
-	background-color: #fff0f7;
+  background-color: #fff0f7;
 }
 .TTTGrid-size-3 li {
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
 }
 .TTTGrid-size-4 li {
-	width: 75px;
-	height: 75px;
-	line-height: 75px;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
 }
 .TTTGrid-size-5 li{
-	width: 60px;
-	height: 60px;
-	line-height: 60px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
 }
 .TTTGrid-size-6 li {
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
 }
 .TTTGrid-game-over li {
-	background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 /*** TTT Label styles ***/
 
 #TTTLabels {
-	margin: 10px auto 0;
-	overflow: hidden;
-	width: 300px;
+  margin: 10px auto 0;
+  overflow: hidden;
+  width: 300px;
 }
 #TTTLabels div {
-	background-color: #d9d9d9;
-	border-radius: 2px;
-	float: left;
-	margin-right: 1px;
-	padding: 4px 0;
-	text-align: center;
-	width: 149px;
+  background-color: #d9d9d9;
+  border-radius: 2px;
+  float: left;
+  margin-right: 1px;
+  padding: 4px 0;
+  text-align: center;
+  width: 149px;
 }
