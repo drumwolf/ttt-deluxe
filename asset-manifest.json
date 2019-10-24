@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ttt-deluxe/static/css/main.c0ddbb65.chunk.css",
+    "main.js": "/ttt-deluxe/static/js/main.a478b2f9.chunk.js",
+    "main.js.map": "/ttt-deluxe/static/js/main.a478b2f9.chunk.js.map",
+    "runtime-main.js": "/ttt-deluxe/static/js/runtime-main.7ad0913d.js",
+    "runtime-main.js.map": "/ttt-deluxe/static/js/runtime-main.7ad0913d.js.map",
+    "static/js/2.3dc95c19.chunk.js": "/ttt-deluxe/static/js/2.3dc95c19.chunk.js",
+    "static/js/2.3dc95c19.chunk.js.map": "/ttt-deluxe/static/js/2.3dc95c19.chunk.js.map",
+    "index.html": "/ttt-deluxe/index.html",
+    "precache-manifest.c649d2467278dfa52d13cfe4c30abe07.js": "/ttt-deluxe/precache-manifest.c649d2467278dfa52d13cfe4c30abe07.js",
+    "service-worker.js": "/ttt-deluxe/service-worker.js",
+    "static/css/main.c0ddbb65.chunk.css.map": "/ttt-deluxe/static/css/main.c0ddbb65.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ad0913d.js",
+    "static/js/2.3dc95c19.chunk.js",
+    "static/css/main.c0ddbb65.chunk.css",
+    "static/js/main.a478b2f9.chunk.js"
+  ]
+}
